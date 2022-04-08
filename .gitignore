@@ -1,0 +1,4 @@
+.vscode
+control_get_info.o
+libgetcontrollerinfo.so
+test_decode.c
