@@ -12,12 +12,13 @@ import (
 type controller_info struct {
     Timestamp int
     Velocity int
-	Alarm int
-	Brake int
-	Meas int
-	Rssi int
+	MotorAlarm int
+	MotorBrake int
+	MeasTimestamp int
+	RcRssi int
 	Mode int
-	Ob_dis int
+	ObsDistance int
+	Voltage int
 }
 
 func main(){
