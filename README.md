@@ -9,3 +9,8 @@
 	or use ldconfig.
 	[reference](https://tldp.org/HOWTO/Program-Library-HOWTO/shared-libraries.html)
 
+* API
+
+		int init_serial(void);              // Initialize serial port
+		int read_data(double timeout_ms);   // Blocking (has timeout, in milisecond) get data api
+	timeout shoud not be less than 100ms, because of some io delay?
